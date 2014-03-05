@@ -1,0 +1,26 @@
+{
+  "author": "wondible",
+  "build": "62168",
+  "category": [
+    "in-game",
+    "ui"
+  ],
+  "context": "client",
+  "date": "2014/03/03",
+  "description": "Select your commander when starting the game.",
+  "display_name": "Autoselect Commander",
+  "enabled": true,
+  "forum": null,
+  "id": "autoselect_commander",
+  "identifier": "com.wondible.pa.autoselect_commander",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/autoselect_commander/autoselect_commander.css",
+      "coui://ui/mods/autoselect_commander/autoselect_commander.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.0.0"
+}
