@@ -1,5 +1,5 @@
 {
-  "author": "wondible",
+  "author": "wondible and friends",
   "build": "62168",
   "category": [
     "in-game",
@@ -7,7 +7,7 @@
   ],
   "context": "client",
   "date": "2014/03/03",
-  "description": "Select your commander when starting the game.",
+  "description": "Select your commander when starting the game.  With inspiration and support from tatsujb, raevn, Cola_Colin, and the PA modders forum.",
   "display_name": "Autoselect Commander",
   "enabled": true,
   "forum": null,
