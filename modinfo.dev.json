@@ -17,7 +17,6 @@
   "requires": [],
   "scenes": {
     "live_game": [
-      "coui://ui/mods/autoselect_commander/autoselect_commander.css",
       "coui://ui/mods/autoselect_commander/autoselect_commander.js"
     ]
   },
