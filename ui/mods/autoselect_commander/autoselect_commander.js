@@ -10,5 +10,5 @@
     }
   })
 
-  $('.div_launch_msg .div_message_display_cont').prepend('<div>Autoselect Commander: <input type="checkbox" data-bind="checked: autoselectCommanderOnSpawn"/></div></div>')
+  $('.div_launch_msg .div_message_display_cont').prepend('<div>Autoselect Commander: <input type="checkbox" data-bind="checked: autoselectCommanderOnSpawn"/></div>')
 })()
