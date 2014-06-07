@@ -6,7 +6,7 @@
     "ui"
   ],
   "context": "client",
-  "date": "2014/06/04",
+  "date": "2014/06/07",
   "description": "Select your commander when starting the game.  With inspiration and support from tatsujb, raevn, Cola_Colin, and the PA modders forum.",
   "display_name": "Autoselect Commander",
   "enabled": true,
