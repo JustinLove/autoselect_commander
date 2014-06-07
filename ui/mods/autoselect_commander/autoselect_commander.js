@@ -23,6 +23,7 @@
         sik.forEach(function(id) {
           console.log('AC: ', id)
           if (id.match('/pa/units/commanders/')) {
+            commanders += si[id].length
           }
         })
 
