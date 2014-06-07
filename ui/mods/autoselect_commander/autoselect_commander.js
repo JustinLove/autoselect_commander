@@ -12,20 +12,28 @@
       var si = payload.spec_ids
       var sik = Object.keys(si)
       if (sik.length == 0) {
+        console.log('AC: nothing selected')
         if (!triggered) api.select.commander()
         triggered = true
-      } else if (sik.length == 1) {
-        handlers.selection = original_selection
-        if (sik[0].match('/pa/units/commanders/')) {
-          if (si[sik[0]].length == 1) {
-            api.camera.track(true)
-          } else {
-            console.info('AC: more than one commander, NOP')
-            api.select.empty()
-          }
-        }
       } else {
+        console.log('AC: at least one thing selected')
         handlers.selection = original_selection
+
+        var commanders = 0
+        sik.forEach(function(id) {
+          console.log('AC: ', id)
+          if (id.match('/pa/units/commanders/')) {
+          }
+        })
+
+        console.log('AC: commanders selected: ', commanders)
+        if (commanders == 1) {
+          console.log('AC: one commander')
+          api.camera.track(true)
+        } else {
+          console.info('AC: something else, NOP')
+          api.select.empty()
+        }
       }
     }
   }
