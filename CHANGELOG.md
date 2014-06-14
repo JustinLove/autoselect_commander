@@ -1,5 +1,9 @@
 # Autoselect Commander Changelog
 
+## 3.0
+
+- PTE circa 67342 no longer sends initial empty selection, rewritten using army size.
+
 ## 2.0.1
 
 - 2.0 broken; very important line disappeared before commiting.
