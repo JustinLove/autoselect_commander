@@ -15,10 +15,12 @@
     })
   }
 
-  model.showLanding.subscribe(function(show) {
-    if (show == false) {
-      console.info('AC: Landed')
-      subscribeToArmy()
-    }
-  })
+  if (model.buildVersion() == '67523') {
+    model.showLanding.subscribe(function(show) {
+      if (show == false) {
+        console.info('AC: Landed')
+        subscribeToArmy()
+      }
+    })
+  }
 })()
