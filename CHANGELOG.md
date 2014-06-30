@@ -1,5 +1,10 @@
 # Autoselect Commander Changelog
 
+## 3.1.0
+
+- Update modinfo
+- Built into PTE after 67523, add depreciation message
+
 ## 3.0
 
 - PTE circa 67342 no longer sends initial empty selection, rewritten using army size.
